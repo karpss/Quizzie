@@ -9,8 +9,9 @@ export const getQuiz = async (
 
 
 ): Promise <any> => {
-    try{
+    try {
         const res = await axios.get(`${url}+${amount}&difficulty=${difficulty}&type=boolean`);
+        return res.data.results;
 
     }catch(error){
         throw new Error(`Error fetching data ${error}`)
