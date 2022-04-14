@@ -9,5 +9,6 @@
   },
   "rules": {
     // your overrides
+    "@typescript-eslint/no-explicit-any": "off"
   }
 }
