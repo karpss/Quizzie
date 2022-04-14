@@ -1,8 +1,8 @@
 /* eslint-disable */
-
+import QuestionPage from '../QuestionPage/QuestionPage'
 import './HomePage.css';
 
-const HomePage = () => {
+const HomePage: React.FC = () => {
   return (
         <div className='homepage'>
         
@@ -13,8 +13,12 @@ const HomePage = () => {
         </p>
         <button>Start Quiz</button>
         
+        
         </div>
+
+        
   )
+  
 }
 
 export default HomePage;
