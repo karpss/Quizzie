@@ -1,5 +1,6 @@
 /* eslint-disable */
-import QuestionPageProps from '../../interface/questionPageProps'
+import QuestionPageProps from '../../interface/questionPageProps';
+import QuestionButton from '../QuestionButton/QuestionButton';
 import './QuestionPage.css';
 
 const QuestionPage: React.FC<QuestionPageProps> = ({questions, questionNumber, totalQuestions, callback, category}) => {
@@ -17,6 +18,11 @@ const QuestionPage: React.FC<QuestionPageProps> = ({questions, questionNumber, t
             {questions}
 
           </div>
+
+          <QuestionButton
+          value='False'
+          onClick={callback}
+          />
 
         
         

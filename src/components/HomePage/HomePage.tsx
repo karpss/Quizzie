@@ -1,5 +1,6 @@
 /* eslint-disable */
-import QuestionPage from '../QuestionPage/QuestionPage'
+import { useState, useEffect } from 'react';
+import QuestionPage from '../QuestionPage/QuestionPage';
 import './HomePage.css';
 
 const HomePage: React.FC = () => {
