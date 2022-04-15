@@ -19,11 +19,19 @@ const QuestionPage: React.FC<QuestionPageProps> = ({questions, questionNumber, t
 
           </div>
 
+          <div>
+          <QuestionButton
+          value='True'
+          onClick={callback}
+          />
+        </div>
+
+          <div>
           <QuestionButton
           value='False'
           onClick={callback}
           />
-
+        </div>
         
         
     </div>

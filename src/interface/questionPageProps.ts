@@ -2,7 +2,7 @@
 
 export default interface QuestionPageProps {
     questions: string;
-    totalQuestions: string;
+    totalQuestions: number;
     questionNumber: number;
     category: string;
     callback: Function;

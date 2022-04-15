@@ -1,0 +1,12 @@
+.question-button{
+    padding: 10px 16px;
+    margin: 10px 0;
+    color: #ffffff;
+    background: navy;
+    border: 2px solid navy;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+
+
+}
